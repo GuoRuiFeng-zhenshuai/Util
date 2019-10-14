@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * 文件 工具类
- * @author zhuzg
+ * @author guoruifeng
  *
  */
 public class FileUtils {

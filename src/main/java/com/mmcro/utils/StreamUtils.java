@@ -5,7 +5,7 @@ import java.io.IOException;
 
 /**
  * 
- * @author zhuzg
+ * @author guoruifeng
  *
  */
 public class StreamUtils {

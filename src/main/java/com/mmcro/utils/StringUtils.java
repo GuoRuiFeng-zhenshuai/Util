@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 /**
  * 
- * @author zhuzg
+ * @author guoruifeng
  *
  */
 public class StringUtils {
@@ -200,7 +200,18 @@ public class StringUtils {
 		dst=dst.replaceAll("\r", "<br/>");
 		return dst;
 	}
-	
+	public static boolean isNumbers(String num) {
+		String regex = "[1-9]\\d*.\\d*|0.\\d*[1-9]\\d*";
+		String regex2 = "[1-9]\\d*";
+
+
+		if (num.matches(regex) || num.matches(regex2)) {
+			return true;
+		}
+
+
+		return false;
+	}
 	
 	
 	
